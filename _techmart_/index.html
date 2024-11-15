@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Лабораторна робота, MySQL, робота з базою даних">
+    <meta name="description" content="Лабораторна робота. Робота з базою даних">
+    <title>База даних</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            border: 1px solid #4CAF50;
+            padding: 8px 20px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Відступи для списку */
+        ul {
+            margin-bottom: 40px;
+        }
+
+        /* Для планшетів */
+        @media (max-width: 768px) {
+            ul {
+                margin-top: 20px;
+            }
+        }
+
+        /* Для мобільних телефонів */
+        @media (max-width: 480px) {
+            a {
+                font-size: 14px;
+                padding: 6px 16px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Структура бази даних _techmart_</h1>
+<img src="dba.png" alt="База даних">
+
+<ul>
+    <li><a href="showCustomers.php">Таблиця Customers</a></li>
+    <li><a href="showBrands.php">Таблиця Brands</a></li>
+    <li><a href="showCategories.php">Таблиця Categories</a></li>
+    <li><a href="showOrders.php">Таблиця Orders</a></li>
+    <li><a href="showOrderDetails.php">Таблиця Order_details</a></li>
+    <li><a href="showproducts.php">Таблиця Product</a></li>
+</ul>
+
+</body>
+</html>
